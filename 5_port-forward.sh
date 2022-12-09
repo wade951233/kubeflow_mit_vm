@@ -1,0 +1,1 @@
+kubectl port-forward svc/istio-ingressgateway 80 -n istio-system --address='0.0.0.0'
