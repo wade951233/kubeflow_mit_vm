@@ -3,7 +3,7 @@ read -p "Please input your master ip: " master_ip
 read -p "Please input your node1 ip: " node1_ip      # 提示使用者輸入
 read -p "Please input your node2 ip: " node2_ip      # 提示使用者輸入
 
-
+snap install helm --classic
 apt update && apt -y upgrade
 apt install -y nfs-server
 mkdir /data
